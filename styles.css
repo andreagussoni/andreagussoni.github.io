@@ -4,6 +4,6 @@ body {
     min-width: 100%;
 }
 
-#title {
+#title, #description {
     color: antiquewhite;
 }
