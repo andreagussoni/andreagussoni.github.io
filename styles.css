@@ -16,6 +16,15 @@ body {
   margin-bottom: 20px;
 }
 
+.secondary {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.desc {
+  font-size: large;
+}
+
 a {
   color: blueviolet;
   text-decoration: none;
