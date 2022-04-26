@@ -25,6 +25,10 @@ body, html {
   
 }
 
+.dot {
+  color: antiquewhite;
+}
+
 .desc {
   font-size: large;
 }
