@@ -1,7 +1,13 @@
-body {
+body, html {
   background-color: #121212;
   min-height: 100vh;
   width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 
 .title {
