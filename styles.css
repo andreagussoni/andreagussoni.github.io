@@ -11,7 +11,6 @@ body, html {
 }
 
 .title {
-  padding-top: 20px;
   font-size: 3rem;
 }
 
@@ -23,8 +22,7 @@ body, html {
 }
 
 .secondary {
-  padding-left: 20px;
-  padding-top: 20px;
+  
 }
 
 .desc {
