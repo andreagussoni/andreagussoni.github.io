@@ -1,4 +1,4 @@
-body, html {
+body {
   background-color: #121212;
 }
 
@@ -10,15 +10,43 @@ body, html {
 }
 
 .title {
-  color: antiquewhite;
+  color: #ffffff;
   font-size: 3rem;
   margin-bottom: 30px;
   margin-top: 20px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
 }
 
 .text {
-  color: antiquewhite;
-  margin: 8px
+  color:#ffffff;
+  margin: 8px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 20px;
+  row-gap: 5px;
+}
+
+.item {
+  height: 150px;
+  width: 150px;
+  background-color: #bb86fc;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 150px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.item:hover {
+  background-color: #9450e8;
 }
 
 .secondary {
@@ -26,7 +54,7 @@ body, html {
 }
 
 .dot {
-  color: antiquewhite;
+  color: #ffffff;
 }
 
 .desc {
@@ -34,10 +62,14 @@ body, html {
 }
 
 a {
-  color: blueviolet;
+  color: #bb86fc;
   text-decoration: none;
 }
 
+.boxlink {
+  color: #121212;
+}
+
 a:hover {
-  color: green;
+  color: #03dac5;
 }
