@@ -36,22 +36,20 @@ body {
 
 .item {
   height: 150px;
-  width: 150px;
+  width: 220px;
   background-color: #bb86fc;
   text-align: center;
   border-radius: 20px;
   line-height: 150px;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
+  word-wrap: break-word;
 }
 
 .item:hover {
   background-color: #9450e8;
 }
 
-.secondary {
-  
-}
 
 .dot {
   color: #ffffff;
