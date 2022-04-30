@@ -71,3 +71,8 @@ a {
 a:hover {
   color: #03dac5;
 }
+
+model-viewer {
+  height: 600px;
+  width: 700px;
+}
